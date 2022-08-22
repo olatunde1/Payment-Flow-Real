@@ -1,0 +1,419 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+       /* background: url(./components/img/Vector\ 55.png) no-repeat;
+    background-size:cover; */
+}
+h2 {
+  font-family: "Product Sans", sans-serif;
+}
+
+.Nav{
+    display: flex;
+    text-align: start;
+    color: #BDBDBD;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 100%;
+    border-bottom: 5px solid #BDBDBD;
+}
+
+.NavP{
+    font-family: 'Product Sans',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #BDBDBD;
+    outline: none;
+    padding-left: 0;
+    padding-bottom: 10px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+     
+}
+
+.tab {
+    width: calc(100% / 3) - 20px;
+    height: 100%;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+}
+
+.active-bar {
+    position: absolute;
+    padding: 5px;
+    background-color: orange;
+    border-radius: 20px;
+    width: 170px;
+    bottom: -8px;
+}
+
+.active-text {
+    color: #F2994A;
+}
+
+
+.tab:first-child, .tab:last-child {
+    margin: 0;
+}
+
+.container{
+    background: url(./components/img/Vector\ 55.png) no-repeat;
+    background-size:cover;
+    background-position: 0px -330px;
+    display: flex;
+}
+.app-wrapper{
+    width: 710px;
+    margin: 189px auto 0;
+
+}
+
+.title{
+    color:#4E598C;
+    text-align: start;
+    margin-bottom: 59px;
+}
+
+.name,
+.email,
+.address1,
+.address2,
+.local,
+.state{
+    color: #222222;
+    font-size:16px;
+    font-weight: bold;
+}
+
+.local {
+    margin-left: 20px;
+}
+
+.form-wrapper {
+    margin-top: 76px;
+}
+
+.password{
+    margin-bottom: 40px;
+}
+
+.email-note {
+    color: #817E9E;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 11px 0;
+}
+
+.input{
+    height: 64px;
+    font-size: 16px;
+    outline: none;
+    width: 100%;
+    margin-bottom: 44px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 1px solid #4E598C;
+    padding-left: 10px;
+    
+}
+
+.error {
+    margin-top: -25px;
+    color: red;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+
+.venue{
+    display: flex;
+}
+
+.localgovernment{
+    height: 32px;
+    font-size: 16px;
+    outline: none;
+    width: 80%;
+    /* border-top-style: none ;
+    border-left-style: none ;
+    border-right-style: none ;
+    border-top-style: 2px solid black ; */
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 1px solid #4E598C;
+    padding-left: 10px;
+}
+
+.stateDetails,
+.cardtypedetails{
+    /* margin-left: 10px; */
+    height: 36px;
+    font-size: 16px;
+    outline: none;
+    width: 100%;
+    /* border-top-style: none ;
+    border-left-style: none ;
+    border-right-style: none ;
+    border-top-style: 2px solid black ; */
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 1px solid #4E598C;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.error{
+    color: red;
+}
+
+.next{
+    margin-top: 40px;
+    font-family: 'Product Sans',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4E598C;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background: none;
+    padding: 10px 60px;
+    cursor: pointer;
+    transition: all 0.1s;
+    
+}
+.next:hover{
+    border-radius: 25px;
+    color: #ffffff;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #F2C94C 0%, #F2994A 100%);
+    
+}
+
+
+.cancelpayment{
+    margin-top: 40px;
+    font-family: 'Product Sans',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4E598C;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    margin-left: 44px;
+    padding: 10px 50px;
+    background: none;
+    cursor: pointer;
+    transition: all 0.1s;
+
+}
+.cancelpayment:hover{
+    border-radius: 25px;
+    color: #ffffff;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #F2C94C 0%, #F2994A 100%);
+    
+}
+
+/* button:active{
+    transform: translate(2px);
+} */
+
+.form-success{
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+    min-width: 370px;
+    color: red;
+}
+
+
+/***************************************** BILLING STYLING*********************** */
+/* ****************************************************************************** */
+
+.cardtype,
+.details{
+    margin-bottom: 30px;
+    color: #222222;
+    font-size:16px;
+    font-weight: bold;
+   
+}
+
+.details{
+    display: flex;
+    width: 100%;
+}
+
+.cardDetails{
+    width:900px
+}
+
+.cardDetails .input{
+    height: 32px;
+    font-size: 16px;
+    outline: none;
+    width: 80%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 1px solid #4E598C;
+    padding-left: 10px;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.expiryDate .input{
+    height: 32px;
+    font-size: 16px;
+    outline: none;
+    width: 80%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 1px solid #4E598C;
+    text-align: center;
+}
+
+.cvv .input{
+    height: 32px;
+    font-size: 16px;
+    outline: none;
+    width: 90%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 1px solid #4E598C;
+    text-align: center;
+    font-weight: bold;
+    color:black;
+}
+
+.form-wrap{
+    background-color: #ffffff;
+    border-radius: 16px 16px 16px 16px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    
+}
+
+
+.priceTag{
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    background: #2F80ED;
+    color: #ffffff;
+    border-radius: 16px 16px 0px 0px;
+    padding-left: 8%;
+    padding-right: 8%;
+    font-family: 'Product Sans',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    
+}
+
+.dataScience{
+    display: flex;
+    justify-content: space-between;
+    color:  #4E598C;
+    font-family: 'Product Sans',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-top: 8%;
+
+}
+
+.shippingRate{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-top: 5%;
+}
+
+.shipping{
+    color:  #4E598C;
+    font-family: 'Product Sans',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+}
+.Line{
+    max-width: 40px;
+}
+
+.inputTotal{
+    height: 36px;
+    font-size: 16px;
+    outline: none;
+    width: 70%;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    border-radius: 6px;
+    border: 1px solid #4E598C;
+
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    
+}
+
+.success{
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.purchaseCompleted{
+
+    font-family: 'Product Sans',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 67px;
+    color: #4E598C;
+    text-align: center;
+
+}
+
+.emailDetails{
+    width: 350px;
+    text-align: left;
+    padding-left: 18%;
+    font-family: 'Product Sans',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.returnHome{
+    text-align: left;
+    padding-left: 18%;
+    color: #F2994A;
+    padding-bottom: 50px;
+}
+.returnHome:hover{
+    color: #F2994A;
+}
