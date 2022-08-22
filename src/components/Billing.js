@@ -90,7 +90,7 @@ const Billing = ({ nextStep, cancelpayment }) => {
                     onBlur={formValue.handleBlur}
                     onChange={formValue.handleChange}
                     className='input' placeholder='923' 
-                    type="text" name='CVV'/>
+                    type="number" name='CVV'/>
             </div>
         </div>
         <div>
