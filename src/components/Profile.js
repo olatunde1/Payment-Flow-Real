@@ -117,8 +117,8 @@ const validate = values => {
                 </select>
             </div>
         </div>
-        <div>
-        <button type='submit' className='next'>Next</button>
+        <div className='actionButton'>
+            <button type='submit' className='next'>Next</button>
             <button className='cancelpayment' onClick={cancelpayment}>Cancel Payment</button>
         </div>
 
