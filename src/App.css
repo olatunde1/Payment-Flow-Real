@@ -522,4 +522,22 @@ h2 {
     .NavP{
         font-size: 16px;
     }
+    .details{
+        display: grid;
+    }
+    .cardDetails,
+    .expiryDate{
+        width:100%
+    }
+    .expiryDate,
+    .cvv{
+        width:50%
+    }
+    .cardtypedetails{
+        width: 90%;
+    }
+    .actionButton{
+        
+    }
+
 }

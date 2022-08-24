@@ -21,7 +21,7 @@ const Payer = ( { nextStep, cancelpayment }) => {
         </div>
         {/* <img src={Line}></img> */}
         {/* <input className='inputTotal' placeholder='Total' type="text" name='name' /> */}
-        <div>
+        <div className='actionButton actionButton2'>
             <button className='pay' onClick={nextStep}>Pay</button>
             <button className='cancelpayment' onClick={cancelpayment}>Cancel Payment</button>
         </div>

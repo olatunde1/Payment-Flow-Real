@@ -93,9 +93,9 @@ const Billing = ({ nextStep, cancelpayment }) => {
                     type="number" name='CVV'/>
             </div>
         </div>
-        <div>
+        <div className='actionButton'>
         <button className='next'>Next</button>
-         <button className='cancelpayment' onClick={cancelpayment}>Cancel Payment</button>
+         <button className='cancelpayment billingCancel' onClick={cancelpayment}>Cancel Payment</button>
         </div>
 
     </form>
