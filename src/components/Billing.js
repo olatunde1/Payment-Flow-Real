@@ -73,7 +73,7 @@ const Billing = ({ nextStep, cancelpayment }) => {
                     onBlur={formValue.handleBlur}
                     onChange={formValue.handleChange}
                     placeholder='44960 &nbsp; 4423 &nbsp; 2341 &nbsp; 1237' 
-                    type="number" name='cardNumber' />
+                    type="number" name='cardNumber' length='12' />
             </div>
             <div className='expiryDate'>
                 <label className='label'>Expiry date</label>

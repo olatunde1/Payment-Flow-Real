@@ -485,13 +485,17 @@ h2 {
     margin-bottom: 99px;
 }
 .returnHome:hover{
-   font-weight: bold;
-   color: #F2C94C;
+    color: #F2C94C;
 }
 
 @media screen and (max-width:764px) {
     .form-wrapper{
         width: 100% !important;
+    }
+    .form-wrap{
+        width: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
     }
     .input{
         width: 90%;
@@ -536,8 +540,17 @@ h2 {
     .cardtypedetails{
         width: 90%;
     }
-    .actionButton{
-        
+    
+    .emailDetails{
+        margin-top: 10px;
+        text-align: left;
+        padding-left: 40px;
     }
-
+    .returnHome {
+        text-align: left;
+        padding-left: 40px;
+    }
+    
+    
+    
 }
